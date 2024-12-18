@@ -49,7 +49,7 @@
 # Ran a code run_floorplane and got a png
 ```picorv32a.floorplan.def.png ```
 
-[Screenshot 2024-12-13 140754](https://github.com/user-attachments/assets/c2a1b410-db95-44ad-8d45-4b0dad2fbe51)
+![Screenshot 2024-12-13 140754](https://github.com/user-attachments/assets/c2a1b410-db95-44ad-8d45-4b0dad2fbe51)
 ***
 # Ran code "run_placement" and got png
 
@@ -65,7 +65,7 @@
 
 ![rt](https://github.com/user-attachments/assets/80bed00e-7f62-401c-8806-3394ca071bb3)
 
-***(---------------------------------------------------------------------------------)***
+***
 ``` NOW WE CODED THE CHIP ```
 # BLINKING THE CHIP
 
@@ -170,7 +170,7 @@ int main(void)
 }
 ```
 ***
-**THE ABOVE VIDEO IS THE PARCTICAL VISUAL OF THE CHIP WITH THAT CODE**
+**THE ABOVE VIDEO IS THE PRACTICAL VISUAL OF THE CHIP WITH THAT CODE**
 
 ___
 

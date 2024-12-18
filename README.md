@@ -12,9 +12,15 @@
  ***The workshop introduced us to VSD (VLSI System Design) Quadron and VirtualBox. We explored how VSD Quadron supports chip design and simulation***
  ***
 # Installed gedit successfully, made a file vsd.c and ran a code to add numbers from 1 to 10 
-![Screenshot 2024-12-13 102620](https://github.com/user-attachments/assets/4da27d47-542d-4739-b63f-72306d83d9c0)
+![Screenshot 2024-12-13 102620](https://github.com/user-attachments/assets/4da27d47-542d-4739-b63f-72306d83d9c0) 
 
-```sudo apt install gedit``` ***WAS THE CODE USED***
+
+
+
+
+
+   
+    ```sudo apt install gedit``` ***WAS THE CODE USED***
 ```
 #include<stdio.h>
   int main(){
@@ -32,19 +38,29 @@
 # Compiling the vardan.c C program for RISC-V architecture using riscv64-unknown-elf-gcc
   ![Screenshot 2024-12-13 105312](https://github.com/user-attachments/assets/3c4c3cdf-ecaa-45fe-85a8-3cd802d1146d)
 
+    
+    
+    
+  
   ```riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o {filename}.o {filename}.c` and iscv64-unknown-elf-objdump -d {filename}.o ```
-  ***was used and following result was obtained***
-  ![image](https://github.com/user-attachments/assets/977de7f4-57b1-4b2d-be00-81ae655fe90f)
+   
+ ***was used and following result was obtained***
+   
+![image](https://github.com/user-attachments/assets/977de7f4-57b1-4b2d-be00-81ae655fe90f)
 ***
-# Now openlane,docker,./flow.tcl -interactive was used
-(```openlane,docker,./flow.tcl -interactive```)
-![Screenshot 2024-12-13 121720](https://github.com/user-attachments/assets/4e9caf6a-38dc-47fb-be1a-c51eb9d1c47e)
+# Now Openlane, Docker and ./flow.tcl -interactive was used
+  
+  (```openlane,docker,./flow.tcl -interactive```)
+  
+ ![Screenshot 2024-12-13 121720](https://github.com/user-attachments/assets/4e9caf6a-38dc-47fb-be1a-c51eb9d1c47e)
 ***
 # RAN PACKAGES
-  ![Screenshot 2024-12-13 122431](https://github.com/user-attachments/assets/8dd1d458-3205-4429-9e2b-db56c5b550fe)
-   (Ran a synthesis"run_synthesis" and was successful)
+  ![Screenshot 2024-12-13 122431](https://github.com/user-attachments/assets/8dd1d458-3205-4429-9e2b-db56c5b550fe)  
+  
+(Ran a synthesis"run_synthesis" and was successful)
 ***HERE IS THE INFO OF NUMBER OF CELLS***
-  ![Screenshot 2024-12-13 122938](https://github.com/user-attachments/assets/f9a937df-216b-42a5-b975-669c2ff688d8)
+   
+![Screenshot 2024-12-13 122938](https://github.com/user-attachments/assets/f9a937df-216b-42a5-b975-669c2ff688d8)
 ***
 # Ran a code run_floorplane and got a png
 ```picorv32a.floorplan.def.png ```

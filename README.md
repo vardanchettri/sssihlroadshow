@@ -190,9 +190,9 @@ int main(void)
 
 ___
 
-**I would like to express my sincere gratitude for the insightful workshop on VLSI and RISC-V,
-which significantly deepened my understanding of chip design and related technologies. The session on VSD Quadron and VirtualBox was particularly valuable,
-and it has further fueled my interest in pursuing a career in VLSI and microelectronics.**
+**I would like to express my sincere gratitude for the detailed workshop on VLSI and RISC-V,
+which significantly deepened my understanding of chip design and related technologieswhich was very valuable
+and  has further fueled my interest in pursuing a career in VLSI and microelectronics.**
 <hr style="border: 3px solid black;">
 
 
